@@ -41,6 +41,16 @@ namespace Exercise_Linked_List_A
             else
                 return false;
         }
+
+        public void traverse()/*Traverse all the nodes of the list*/
+        {
+            if (listEmpty())
+                Console.WriteLine("\nList is empty");
+            else
+            {
+
+            }
+        }
     }
     }
 }
